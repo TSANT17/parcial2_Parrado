@@ -1,0 +1,24 @@
+.photosContainer{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center
+}
+.photoList{
+    border: 1px solid black;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photoList img {
+    width: 100px;
+}
+.photoText{
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+}
